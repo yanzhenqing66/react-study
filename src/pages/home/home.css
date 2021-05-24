@@ -1,0 +1,19 @@
+.tab-first-wrap .outer {
+  width: 400px;
+  height: 600px;
+  background: red;
+}
+
+.tab-first-wrap .inner {
+  width: 50%;
+  padding-bottom: 50%;
+  background: blue;
+}
+
+.tab-second-wrap .outer, .tab-second-wrap .inner {
+  width: 100px;
+  height: 100px;
+  background-color: #f60;
+  margin: 10px;
+}
+
