@@ -33,7 +33,7 @@ const PersonRedux = (props) => {
 }
 
 export default connect(
-  state => ({persons: state.personReducer}),
+  state => ({persons: state.person}),
   {
     addPerson: add_person,
     delPerson: del_person_async
